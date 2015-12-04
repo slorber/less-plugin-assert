@@ -1,13 +1,7 @@
 
-# 0.1.2
+# 0.0.1
 
-2015-03-28
+2015-12-04
 
- - `l` function for in-place list construction
- - Fix incorrect type of row lists in `transpose`
-
-# 0.1.1
-
-2015-03-27
-
- - Initial release
+ - Create an assert(cond,msg) function that fails when the condition is not met.
+ - Create a fail(msg) function that always fail.

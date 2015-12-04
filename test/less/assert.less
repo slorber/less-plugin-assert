@@ -1,0 +1,10 @@
+
+@t: true;
+@1: banana apple, tomato potato;
+
+assert {
+    01: assert(@1,1);
+    02: at(banana apple peach, banana);
+    03: at(@1, 2);
+    04: at(@1, banana);
+}

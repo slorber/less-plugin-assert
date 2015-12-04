@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 
         less: {
             options: {
-                plugins: [new (require('../less-plugin-lists'))()]
+                plugins: [new (require('../less-plugin-assert'))()]
             },
             regression: {
                 expand:   true,
